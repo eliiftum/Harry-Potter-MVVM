@@ -16,7 +16,9 @@ protocol HomeViewBusinessLogic: AnyObject {
 class HomeViewModel{
     
     var response : CharactersModel?
-   
+    
+    var selectedCharacter: CharactersModelElement?
+    
     weak var delegate:HomeViewBusinessLogic?
     
     func getCharacters() {
@@ -30,6 +32,7 @@ class HomeViewModel{
             }
         }
     }
+    
     
     
 }
