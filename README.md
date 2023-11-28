@@ -3,7 +3,7 @@
 ## Features
  - I used MVVM
  - Developed with UIKit.
- - API is https://api.themoviedb.org/3/movie/
+ - API is https://hp-api.onrender.com/api/characters
  - Storyboards
 ## Third-Party Libraries
  - KingFisher
